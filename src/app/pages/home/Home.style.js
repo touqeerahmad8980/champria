@@ -30,7 +30,7 @@ const useStyles = makeStyles({
         justifyContent: "space-between",
         borderRadius: 6,
         marginBottom: 5,
-        '@media all and (max-width:600px)':{
+        '@media all and (max-width:1300px)':{
             minWidth: "100%"
         },
         '& svg,img':{
