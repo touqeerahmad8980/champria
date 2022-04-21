@@ -3,6 +3,7 @@ import Box from '@mui/material/Box';
 import SideMenu from './components/side-menu/SideMenu';
 import Header from './components/header/Header';
 import Footer from './components/footer/Footer';
+import PagesRoute from './routes';
 
 const drawerWidth = 190;
 
@@ -28,7 +29,7 @@ export default function App() {
         component="main"
         sx={{ flexGrow: 1, p: 3, width: { sm: `calc(100% - ${drawerWidth}px)` } }}
       >
-        {/* <h1>Home</h1> */}
+        <PagesRoute />
       </Box>
       <Footer />
     </Box>
