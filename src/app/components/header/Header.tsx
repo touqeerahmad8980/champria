@@ -28,10 +28,10 @@ const Header = ({drawerWidth, handleDrawerToggle}:IProps) => {
     return (
         <AppBar
 			className={classes.headerWrap}
-			position="fixed"
 			sx={{
 				width: { sm: `calc(100% - ${drawerWidth}px)` },
 				ml: { sm: `${drawerWidth}px` },
+				position: "static"
 			}}
 		>
 			<Toolbar className={classes.actionWrap}>

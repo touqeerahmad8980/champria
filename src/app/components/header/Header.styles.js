@@ -5,7 +5,7 @@ const useStyles = makeStyles({
         background:"linear-gradient(180deg,#5225a7,#130d4a)",
         minHeight: "230px !important",
         '@media all and (max-width:600px)':{
-            minHeight: "250px !important",
+            minHeight: "180px !important",
         },
     },
     actionWrap:{
@@ -27,14 +27,20 @@ const useStyles = makeStyles({
         '& h2':{
             fontSize:42,
             // fontFamily: "Industry",
-            fontWeight: 800
+            fontWeight: 800,
+            '@media all and (max-width:600px)':{
+                fontSize:30
+            },
         }
     },
     selectWrap:{
         '& .MuiSelect-select':{
             width: 220,
             padding: "8.56px 15px",
-            color: "#fff"
+            color: "#fff",
+            '@media all and (max-width:600px)':{
+                width: 140,
+            },
         },
         '& .MuiOutlinedInput-notchedOutline':{
             borderColor: "#fff"
@@ -56,8 +62,7 @@ const useStyles = makeStyles({
         marginLeft: "15px !important",
         textTransform: "none !important",
         '@media all and (max-width:600px)':{
-            marginLeft: "0 !important",
-            marginTop: "15px !important"
+            marginLeft: "10px !important",
         },
     }
 });
