@@ -10,7 +10,7 @@ const Home = () => {
     const classes = useStyles();
 
     return (
-        <Box px={2} pb={12}>
+        <Box className={classes.homePage} pb={12}>
             <Grid container spacing={2}>
                 <Grid item sm={9} xs={12}>
                     {/* home page content here */}

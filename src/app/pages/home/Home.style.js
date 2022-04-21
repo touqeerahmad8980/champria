@@ -1,6 +1,12 @@
 import { makeStyles } from '@mui/styles';
 
 const useStyles = makeStyles({
+    homePage:{
+        padding: "0 16px",
+        '@media all and (max-width:600px)':{
+            padding:0
+        }
+    },
     reviewWrap:{
         '& .headingWrap':{
             display:"flex",
