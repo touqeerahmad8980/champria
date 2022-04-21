@@ -13,15 +13,15 @@ const Home = () => {
         <Box px={2} pb={12}>
             <Grid container spacing={2}>
                 <Grid item sm={9} xs={12}>
-
+                    {/* home page content here */}
                 </Grid>
                 <Grid item sm={3} xs={12}>
                     <Box mt={3} className={classes.reviewWrap}>
-                        <Box display="flex" justifyContent="space-between" alignItems="center">
-                            <Box style={{fontSize:18, fontWeight:700}}>Scrim Review</Box>
+                        <Box className="headingWrap">
+                            <Box className="heading">Scrim Review</Box>
                             <Box>
-                                <KeyboardArrowDownIcon style={{border:"1px solid #666", borderRadius: 4}} />
-                                <KeyboardArrowUpIcon style={{border:"1px solid #666", borderRadius: 4, marginLeft:5}} />
+                                <KeyboardArrowDownIcon className="arrows"/>
+                                <KeyboardArrowUpIcon className="arrows" style={{marginLeft:5}} />
                             </Box>
                         </Box>
                         <Box mt={1}>

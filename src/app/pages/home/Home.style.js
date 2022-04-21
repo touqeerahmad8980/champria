@@ -2,6 +2,19 @@ import { makeStyles } from '@mui/styles';
 
 const useStyles = makeStyles({
     reviewWrap:{
+        '& .headingWrap':{
+            display:"flex",
+            justifyContent:"space-between",
+            alignItems:"center"
+        },
+        '& .heading':{
+            fontSize:18,
+            fontWeight:700
+        },
+        '& .arrows':{
+            border:"1px solid #666", 
+            borderRadius: 4
+        }
     },
     reviewBox:{
         backgroundColor: "#282828",
