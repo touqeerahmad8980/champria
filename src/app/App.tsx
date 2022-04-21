@@ -6,7 +6,7 @@ import Footer from './components/footer/Footer';
 
 const drawerWidth = 190;
 
-export default function ResponsiveDrawer() {
+export default function App() {
   const [mobileOpen, setMobileOpen] = React.useState(false);
 
   const handleDrawerToggle = () => {
