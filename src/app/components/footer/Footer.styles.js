@@ -46,10 +46,10 @@ const useStyles = makeStyles({
         '& p':{
             fontSize: "14px !important",
             fontWeight: "500 !important",
-            marginRight: 10
+            marginRight: 20
         },
         '& img,svg':{
-            marginLeft: 15
+            marginLeft: 10
         }
     }
 });
